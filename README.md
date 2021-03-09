@@ -35,13 +35,21 @@ Remember NewReplacer panics if given an odd number of arguments.
  ```
 
 2. Create a module called phone:
+
+For the replaceAll function use:
  ```sh
- go mod init phone
+ go mod init replaceAll
  ```
+For the newReplacer function use: 
+ ```sh
+ go mod init newReplacer
+ ``` 
+ 
 3. Create a generated executable file:
 ```sh
 go build -o cmd/cleaner/main.go
 ```
+
 4. To RUN use the terminal and one argument of command line:
 ```sh
 cleaner.exe "ANY_EXAMPLE_PHONE_NUMBER"
