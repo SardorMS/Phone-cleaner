@@ -10,7 +10,7 @@ Implementing character replacement for formatting phone numbers using command li
 
 2. Create a module called phone:
  ```sh
- go mod init mod phone
+ go mod init phone
  ```
 3. Create a generated executable file:
 ```sh
