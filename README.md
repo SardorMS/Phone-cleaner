@@ -16,7 +16,7 @@ Implementing character replacement for formatting phone numbers using command li
 ```sh
 go build -o cmd/cleaner/main.go
 ```
-4. To RUN use the terminal, using one argument of command line:
+4. To RUN use the terminal and one argument of command line:
 ```sh
 cleaner.exe "ANY_EXAMPLE_PHONE_NUMBER"
 ```
