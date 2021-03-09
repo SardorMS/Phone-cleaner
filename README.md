@@ -2,7 +2,8 @@
 Implementing character replacement for formatting phone numbers using command line arguments in Go (Golang).
 
 # Functions
-**ReplaceAll:**
+
+**strings.ReplaceAll:**
 This function is used to replace all the old string with a new string. If the given old string is empty, then it matches at the starting of the string and after each UTF-8 sequence it is yielding up to M+1 replacement for M-rune string.
 
 **Syntax:**
