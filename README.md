@@ -14,6 +14,7 @@ func ReplaceAll(str, oldstr, newstr string) string
 Here, str is the original string, oldstr is the string which you wants to replace, and newstr is the new string which replaces the oldstr. Let us discuss this concept with the help of an example:
 
 
+
 **strings.NewReplacer():**
 
 Function in Golang returns a new Replacer from a list of previous, new string sets. Substitutions are performed within the order they show up within the target string, without overlapping matches. The old string comparisons are done in argument order. The old string comparisons are done in argument order.
