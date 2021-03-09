@@ -1,13 +1,25 @@
 # phone-cleaner
 Implementing character replacement for formatting phone numbers using command line arguments in Go (Golang).
 
-#  Functions
+# Functions
 **ReplaceAll:**
 This function is used to replace all the old string with a new string. If the given old string is empty, then it matches at the starting of the string and after each UTF-8 sequence it is yielding up to M+1 replacement for M-rune string.
 
 **Syntax:**
+```
 func ReplaceAll(str, oldstr, newstr string) string
+```
 Here, str is the original string, oldstr is the string which you wants to replace, and newstr is the new string which replaces the oldstr. Let us discuss this concept with the help of an example:
+
+
+**strings.NewReplacer()**
+Function in Golang returns a new Replacer from a list of previous, new string sets. Substitutions are performed within the order they show up within the target string, without overlapping matches. The old string comparisons are done in argument order. The old string comparisons are done in argument order.
+
+**Syntax**
+```
+func NewReplacer(oldnew ...string) *Replacer
+```
+Remember NewReplacer panics if given an odd number of arguments.
 
 
 
