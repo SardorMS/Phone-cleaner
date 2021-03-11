@@ -55,7 +55,7 @@ go build -o cmd/cleaner/main.go
 cleaner.exe "ANY_EXAMPLE_PHONE_NUMBER"
 ```
 <p align="center">
-<img src="src/Example_replacement.png" width=40%><br/>
+<img src="src/Example_replacement.png" width=45%><br/>
 </p>
 
 
