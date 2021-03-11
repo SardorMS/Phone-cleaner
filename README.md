@@ -34,7 +34,7 @@ Remember NewReplacer panics if given an odd number of arguments.
  git clone https://github.com/SardorMS/phone-cleaner
  ```
 
-2. Create a module called phone:
+2. Create a module:
 
 For the replaceAll function use:
  ```sh
