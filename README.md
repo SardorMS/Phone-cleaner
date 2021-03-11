@@ -54,3 +54,4 @@ go build -o cmd/cleaner/main.go
 ```sh
 cleaner.exe "ANY_EXAMPLE_PHONE_NUMBER"
 ```
+![alt tag](https://github.com/SardorMS/Phone-cleaner/blob/replacement/src/Example_replacement.png)
