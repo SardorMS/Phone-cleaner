@@ -11,7 +11,7 @@ This function is used to replace all the old string with a new string. If the gi
 ```
 func ReplaceAll(str, oldstr, newstr string) string
 ```
-Here, str is the original string, oldstr is the string which you wants to replace, and newstr is the new string which replaces the oldstr. Let us discuss this concept with the help of an example:
+Here, str is the original string, oldstr is the string which you wants to replace, and newstr is the new string which replaces the oldstr.
 
 
 
