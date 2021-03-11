@@ -55,9 +55,9 @@ go build -o cmd/cleaner/main.go
 cleaner.exe "ANY_EXAMPLE_PHONE_NUMBER"
 ```
 <p align="center">
-<img src="src/Example_replacement.png" width=75%>
+<img src="src/Example_replacement.png" width=25%>
 <br/>
-<em>(Install Missing Tools)</em>
+<em>(Example)</em>
 </p>
 
 ![alt tag](https://github.com/SardorMS/Phone-cleaner/blob/replacement/src/Example_replacement.png)
