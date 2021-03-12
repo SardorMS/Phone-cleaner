@@ -1,4 +1,4 @@
-# phone-cleaner
+# Phone-cleaner
 Implementing character replacement for formatting phone numbers using command line arguments in Go (Golang).
 
 # Functions
