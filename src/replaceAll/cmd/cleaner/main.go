@@ -9,10 +9,10 @@ import (
 func main() {
 	flag.Parse()
 	name := flag.Arg(0)
-	message1 := strings.ReplaceAll(name, "(", "")
-	message1 = strings.ReplaceAll(message1, ")", "")
-	message1 = strings.ReplaceAll(message1, "-", "")
-	message1 = strings.ReplaceAll(message1, " ", "")
-	fmt.Println(message1)
+	message := strings.ReplaceAll(name, "(", "")
+	message = strings.ReplaceAll(message, ")", "")
+	message = strings.ReplaceAll(message, "-", "")
+	message = strings.ReplaceAll(message, " ", "")
+	fmt.Println(message)
 
 }
